@@ -1,0 +1,32 @@
+#myNavbar .container {
+    max-width: 1170px !important;   
+}
+#myNavbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#myNavbar .logo {
+    height: 50px;
+    width: auto;
+}
+#searchBtn {
+    display: none;   
+}
+#searchTextBat {
+    display: none;
+    max-width:145px;
+    margin:0;   
+}
+.nav > li > a {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+}
+@media (min-width: 1450px) {
+    .nav > li > a {
+        padding: 15px 40px !important;   
+    }  
+    .login {
+        position: absolute;
+        right: 100px;
+    }
+}
