@@ -119,7 +119,7 @@
 
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand reg-pad" ><img id="logo" class="logo" src="//www.thebeerbug.com/images/logo_header.png"></a>
+            <a class="navbar-brand reg-pad" ><img id="logo" class="logo" src="img/logo_header.png"></a>
         </div><!-- end navbar-header -->
 
     </div><!-- end container-fluid -->
@@ -497,7 +497,7 @@
             d3.json("us.json", function (error, us) {
                 draw(data,us,names)
 
-                $("#category").on("input", function(){
+                $("#category").change(function(){
                     category = $(this).val();
                     $("#canvas-svg svg").remove();
                     draw(data, us, names);
